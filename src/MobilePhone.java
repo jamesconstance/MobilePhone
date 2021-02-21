@@ -6,7 +6,11 @@ public class MobilePhone {
 
     Scanner scanner = new Scanner(System.in);
 
-    ArrayList<Contact> contacts = new ArrayList<Contact>();
+    ArrayList<Contact> contacts;
+
+    public MobilePhone() {
+        contacts = new ArrayList<Contact>();
+    }
 
     boolean isOn = false;
 
